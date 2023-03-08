@@ -1,0 +1,31 @@
+        const spinningDiscoGif = '/assets/spinningDiscoGif.webp'
+
+        const brokenDisco = '/assets/image.gif';
+
+        const image = document.getElementById('image');
+
+        const turnOnButton =  document.getElementById("turn-on");
+
+        const turnOffButton = document.getElementById("turn-off");
+
+        const music = new Audio ('/assets/music.mp3');
+
+        
+
+
+        turnOnButton
+        .addEventListener("click",
+             function(){ 
+              image.setAttribute("src", spinningDiscoGif);
+              music.play();
+              document.body.classList.add("rick-rolled")
+             });
+
+        turnOffButton
+        .addEventListener("click",
+             function(){ 
+              image.setAttribute("src",
+               brokenDisco);
+               music.pause();
+               document.body.classList.remove("rick-rolled")
+             });

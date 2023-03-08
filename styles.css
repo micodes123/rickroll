@@ -1,0 +1,15 @@
+.rick-rolled {
+    background: url('assets/rick-rolled.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+.container {
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: stretch;
+justify-content: flex-start;
+align-items: flex-start;
+    }
