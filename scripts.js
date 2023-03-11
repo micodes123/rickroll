@@ -1,6 +1,6 @@
         const spinningDiscoGif = 'https://raw.githubusercontent.com/micodes123/rickroll/main/assets/spinningDiscoGif.webp'
 
-        const brokenDisco = '/assets/image.gif';
+        const brokenDisco = 'https://raw.githubusercontent.com/micodes123/rickroll/main/assets/image.gif';
 
         const image = document.getElementById('image');
 
