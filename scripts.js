@@ -1,4 +1,4 @@
-        const spinningDiscoGif = '/assets/spinningDiscoGif.webp'
+        const spinningDiscoGif = 'https://raw.githubusercontent.com/micodes123/rickroll/main/assets/spinningDiscoGif.webp'
 
         const brokenDisco = '/assets/image.gif';
 
