@@ -8,7 +8,7 @@
 
         const turnOffButton = document.getElementById("turn-off");
 
-        const music = new Audio ('/assets/music.mp3');
+        const music = new Audio ('https://raw.githubusercontent.com/micodes123/rickroll/main/assets/music.mp3');
 
         
 
